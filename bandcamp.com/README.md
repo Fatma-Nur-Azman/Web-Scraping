@@ -2,6 +2,8 @@
 
 ![Bandcamp Screenshot](https://github.com/Fatma-Nur-Azman/Web-Scraping/blob/main/bandcamp.com/Bandcamp.jpeg)
 
+https://bandcamp.com/
+
 This project is designed to automatically scrape album names, artist names, and price information from the **Bandcamp** website using **Selenium** and **BeautifulSoup**. Web scraping is a powerful method for structuring unformatted data from the internet, and through this project, you will learn how to make the most out of the data available on Bandcamp.
 
 ## 🚀 Project Objective
