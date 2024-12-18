@@ -1,27 +1,70 @@
-# 🕸️ Figs E-Commerce Web Scraping Project
+# E-Commerce Product Pricing Analysis Platform
 
-![Figs Screenshot](https://github.com/Fatma-Nur-Azman/Web-Scraping/blob/main/E-commerce_figs.com/figs.jpeg)
+This project demonstrates an end-to-end data processing workflow, from web scraping and exploratory data analysis (EDA) to visualizing data insights using interactive dashboards. The dataset includes information about various products such as categories, names, prices, and genders. This dataset was extracted from an e-commerce website, specifically to support a client request for price analysis.
 
-https://www.wearfigs.com/pages/women-home
+## Project Goals
+- Extract data from multiple sources using web scraping.
+- Perform data cleaning and exploratory data analysis (EDA).
+- Create interactive visualizations to identify patterns and trends.
+- Demonstrate expertise in ETL (Extract, Transform, Load) processes.
 
-This project is designed to automatically scrape product details such as names, prices, sizes, and color attributes from the Figs website using Selenium and Pandas. Web scraping is a powerful technique for transforming unstructured web data into actionable insights. Through this project, you'll gain practical experience in automating data collection and processing for e-commerce applications.
+![ Screenshot](https://github.com/Fatma-Nur-Azman/Web-Scraping/blob/main/E-commerce_uniformadvantage.com/uniformadvantage_2.jpeg)
 
-## 🚀 Project Objective
-This project aims to automate the process of scraping product details such as names, categories, prices, core colors, limited edition colors, and size options from the Figs e-commerce website using Selenium and Pandas. By utilizing web scraping techniques, the project extracts structured data from unformatted web pages, allowing for data analysis and informed decision-making.
+https://www.uniformadvantage.com/
 
-## 🔧 Technologies and Libraries Used
-- **Python 3.x**
-- **Selenium**: Automates web browsers to load dynamic content.
-- **BeautifulSoup**: Used to parse HTML and XML documents.
-- **Pandas**: Helps in converting the extracted data into structured formats.
+## Key Features
+- **Web Scraping:** Built pipelines to collect data from various sources. Each color and size variant of the products was extracted separately to ensure detailed and granular analysis.
+- **Data Analysis:** Performed comprehensive EDA to clean and process raw data.
+- **Visualizations:** Created insightful dashboards to represent:
+  - Average prices by category.
+  - Price comparisons by gender.
+  - Discounted vs original prices.
 
-## 💻 Project Steps
-1. **Website Analysis**:  Inspecting product category pages and individual product details on the Figs e-commerce website.
-2. **Data Extraction**:  Using Selenium to navigate the website and extract product details such as names, categories, prices, core colors, limited edition colors, and sizes.
-3. **Data Processing**: Cleaning and organizing the scraped data for consistency and accuracy.
-4. **Data Storage**: Saving the structured data into a CSV or Excel file using Pandas for future analysis or reporting.
+## Visual Insights
+### 1. Average Original Price by Category
+This bar chart highlights the average original price for each product category, providing a clear understanding of which categories are priced higher.
 
-## 🛠 Setup and Run Instructions
-1. Install the required packages for the project:
+### 2. Average Original Price by Sex
+This visualization compares the average original prices of products targeted at men and women.
+
+### 3. Discounted Price vs Original Price
+A scatter plot shows the relationship between original and discounted prices, segmented by gender.
+
+## Technologies Used
+- **Python:** Data processing and visualization.
+- **Libraries:** Pandas, Matplotlib, Seaborn, Streamlit.
+- **Visualization Tools:** Created interactive dashboards using Streamlit.
+- **ETL Workflow:** Demonstrated end-to-end data handling expertise.
+
+## How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo-link
+   ```
+2. Install required libraries:
    ```bash
    pip install -r requirements.txt
+   ```
+3. Run the Streamlit application:
+   ```bash
+   streamlit run app.py
+   ```
+
+## Example Visualizations
+### 1. Average Original Price by Category
+![Category Bar Chart](https://github.com/Fatma-Nur-Azman/Web-Scraping/blob/main/E-commerce_uniformadvantage.com/category_bar_chart.png)
+
+### 2. Average Original Price by Sex
+![Sex Bar Chart](https://github.com/Fatma-Nur-Azman/Web-Scraping/blob/main/E-commerce_uniformadvantage.com/sex_bar_chart.png)
+
+### 3. Discounted Price vs Original Price
+![Price Scatter Plot](https://github.com/Fatma-Nur-Azman/Web-Scraping/blob/main/E-commerce_uniformadvantage.com/price_scatter_plot.png)
+
+## Future Work
+- Integrate additional data sources.
+- Enhance the dashboard with more interactive features.
+- Implement advanced data modeling for deeper insights.
+
+---
+
+Feel free to contribute to the project or reach out with any questions!
